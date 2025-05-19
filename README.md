@@ -6,14 +6,15 @@ This project implements a **Convolutional Neural Network (CNN)** using **TensorF
 
 The dataset is organized in the following format:
 
+```text
 Dataset_Lab/
 ├── Dataset/
-│ ├── class_1/
-│ └── class_2/
+│   ├── class_1/
+│   └── class_2/
 └── test/
-├── class_1/
-└── class_2/
-
+    ├── class_1/
+    └── class_2/
+```
 
 - `Dataset/` — Contains the full dataset used for training and validation (240 images across 2 classes).
 - `test/` — Contains 20 images used for evaluating the model after training.
